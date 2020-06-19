@@ -1,5 +1,4 @@
 class Class:
-
     def __init__(self, groups, teacher, subject, type, duration, classrooms):
         self.groups = groups
         self.teacher = teacher
@@ -14,3 +13,23 @@ class Class:
 
     def __repr__(self):
         return str(self)
+
+
+class Classroom:
+    def __init__(self, name, type):
+        self.name = name
+        self.type = type
+
+    def __str__(self):
+        return "{} - {} \n".format(self.name, self.type)
+
+    def __repr__(self):
+        return str(self)
+
+
+class Data:
+    def __init__(self, groups, teachers, classes, classrooms):
+        self.groups = groups
+        self.teachers = teachers
+        self.classes = classes
+        self.classrooms = classrooms
