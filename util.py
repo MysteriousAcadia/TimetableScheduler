@@ -30,16 +30,16 @@ def load_data(file_path, teachers_empty_space, groups_empty_space,
     groups = {}
     class_list = []
 
-    for cl in data['Casovi']:
-        new_group = cl['Grupe']
-        new_teacher = cl['Nastavnik']
+    for cl in data['Classes']:
+        new_group = cl['Groups']
+        new_teacher = cl['Teacher']
 
         # initialise for empty space of teachers
         if new_teacher not in teachers_empty_space:
             teachers_empty_space[new_teacher] = []
 
-        new = Class(new_group, new_teacher, cl['Predmet'], cl['Tip'],
-                    cl['Trajanje'], cl['Ucionica'])
+        new = Class(new_group, new_teacher, cl['Subject'], cl['Tip'],
+                    cl['Duration'], cl['Classroom'])
         # add groups
         for group in new_group:
             if group not in groups:
@@ -59,8 +59,8 @@ def load_data(file_path, teachers_empty_space, groups_empty_space,
         classes[len(classes)] = cl
 
     # every class is assigned a list of classrooms he can be in as indexes (later columns of matrix)
-    for type in data['Ucionice']:
-        for name in data['Ucionice'][type]:
+    for type in data['Classrooms']:
+        for name in data['Classrooms'][type]:
             new = Classroom(name, type)
             classrooms[len(classrooms)] = new
 
@@ -111,7 +111,7 @@ def show_timetable(matrix):
     Prints timetable matrix.
     """
     days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
-    hours = [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    hours = [8,9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
 
     # print heading for classrooms
     for i in range(len(matrix[0])):
@@ -142,7 +142,7 @@ def write_solution_to_file(matrix, data, filled, filepath, groups_empty_space,
     """
     Writes statistics and schedule to file.
     """
-    f = open('solution_files/sol_' + filepath, 'w')
+    f = open('solution_files/sol_' + filepath, 'w+')
 
     f.write(
         '-------------------------- STATISTICS --------------------------\n')

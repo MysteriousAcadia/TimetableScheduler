@@ -9,7 +9,7 @@ def subjects_order_cost(subjects_order):
     # number of subjects not in right order
     cost = 0
     # number of all orders of subjects
-    total = 0
+    total = 1
 
     for (subject, group_index), times in subjects_order.items():
 
