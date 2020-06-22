@@ -1,15 +1,18 @@
+# Timetable Scheduler
+
 ### Algorithm
 
 The algorithm consists of the following steps:
 1. **Loading and processing data**
   <br />The classes are loaded from the JSON file and are allocated to the appropriate structures. 
+
 2. **Model setting**
     1. *Class*
         <br/> It contains class name, class teachers, class timings,(List of) Classrooms available and (List of)Student Groups who are enrolled in this class.
     2. *Classroom*
-    <br/> It contains the classroom name, and it's type.
+    <br/> It contains the classroom name, and it's type. 
+    Creation of schedule matrix and dictionaries representing empty fields, filled fields in a matrix, order of classes for each type of class and group, an empty group idle, and an empty teacher's idle.
 
-  <br />Creation of schedule matrix and dictionaries representing empty fields, filled fields in a matrix, order of classes for each type of class and group, an empty group idle, and an empty teacher's idle.
 3. **Generating the initial population**
   <br />Classes are arranged in vertically consecutive blank spaces of the matrix so that they are in the appropriate classroom.
 4. **(1 + 1) evolution strategy for hard constraints**
