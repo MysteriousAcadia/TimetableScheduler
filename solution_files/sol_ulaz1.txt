@@ -1,88 +1,501 @@
 -------------------------- STATISTICS --------------------------
-
-Hard constraints satisfied: 100.00 %
+Hard constraints NOT satisfied, cost: 20
 Soft constraints satisfied: 100.00 %
 
-TOTAL empty space for all GROUPS and all days: 0
-MAX empty space for GROUP in day: 0
-AVERAGE empty space for GROUPS per week: 0.00
+TOTAL empty space for all GROUPS and all days: 7
+MAX empty space for GROUP in day: 2
+AVERAGE empty space for GROUPS per week: 0.88
 
-TOTAL empty space for all TEACHERS and all days: 0
-MAX empty space for TEACHER in day: 0
-AVERAGE empty space for TEACHERS per week: 0.00
+TOTAL empty space for all TEACHERS and all days: 63
+MAX empty space for TEACHER in day: 10
+AVERAGE empty space for TEACHERS per week: 7.88
 
-Free term -> Monday: 9
+Free term -> Wednesday: 19
 
 --------------------------- SCHEDULE ---------------------------
 
-Class 5
+Class 12
 Teacher: Teacher 2 
 Subject: Maths 12 
 Groups: 101, 103 
 Type: V 
 Duration: 22 hour(s)
-Classroom: U2 
-Time: Thursday 9 10 11 12 13 14 15 16 17 18 19 20 9 10 11 12 13 14 15 16 17 18
+Classroom: U9 
+Time: Monday 8 9 10 11 12 13 14 15 16 8 9 10 11 12 13 14 15 16 8 9 10 11
 
-Class 0
+Class 38
 Teacher: Teacher 1 
 Subject: Maths 11 
 Groups: 101, 102 
 Type: V 
 Duration: 12 hour(s)
+Classroom: U1 
+Time: Tuesday 11 12 13 14 15 16 8 9 10 11 12 13
+
+Class 46
+Teacher: Teacher 6 
+Subject: Biology 8 
+Groups: 108 
+Type: V 
+Duration: 1 hour(s)
 Classroom: U4 
-Time: Tuesday 9 10 11 12 13 14 15 16 17 18 19 20
+Time: Wednesday 11
 
-Class 2
-Teacher: Teacher 1 
-Subject: Maths 1 
-Groups: 101 
+Class 52
+Teacher: Teacher 6 
+Subject: Biology Lab8 
+Groups: 108 
 Type: V 
-Duration: 2 hour(s)
-Classroom: U3 
-Time: Wednesday 15 16
+Duration: 1 hour(s)
+Classroom: U4 
+Time: Tuesday 9
 
-Class 7
-Teacher: Teacher 1 
-Subject: Maths 1 
-Groups: 101 
-Type: V 
-Duration: 2 hour(s)
-Classroom: U7 
-Time: Monday 11 12
-
-Class 1
+Class 10
 Teacher: Teacher 3 
-Subject: Maths 13 
-Groups: 102, 103 
+Subject: Chemistry Lab5 
+Groups: 105 
 Type: V 
-Duration: 2 hour(s)
+Duration: 1 hour(s)
 Classroom: U4 
-Time: Wednesday 11 12
+Time: Tuesday 9
 
-Class 4
+Class 0
+Teacher: Teacher 6 
+Subject: Biology 6 
+Groups: 106 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U2 
+Time: Friday 12
+
+Class 29
+Teacher: Teacher 7 
+Subject: Biology 5 
+Groups: 105 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U4 
+Time: Friday 11
+
+Class 44
+Teacher: Teacher 3 
+Subject: Chemistry 4 
+Groups: 104 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U11 
+Time: Friday 10
+
+Class 23
+Teacher: Teacher 8 
+Subject: Biology 8 
+Groups: 108 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U6 
+Time: Friday 11
+
+Class 36
+Teacher: Teacher 4 
+Subject: Chemistry 8 
+Groups: 108 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U6 
+Time: Friday 12
+
+Class 34
+Teacher: Teacher 3 
+Subject: Chemistry 5 
+Groups: 105 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U4 
+Time: Friday 15
+
+Class 14
+Teacher: Teacher 1 
+Subject: Maths 5 
+Groups: 105 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U4 
+Time: Friday 14
+
+Class 16
 Teacher: Teacher 1 
 Subject: Maths 14 
 Groups: 101, 102, 103 
 Type: V 
 Duration: 2 hour(s)
-Classroom: U4 
-Time: Wednesday 13 14
+Classroom: U1 
+Time: Thursday 10 11
 
-Class 3
+Class 11
 Teacher: Teacher 2 
+Subject: Maths 6 
+Groups: 106 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U9 
+Time: Friday 15
+
+Class 26
+Teacher: Teacher 7 
+Subject: PhyLab Lab5 
+Groups: 105 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U3 
+Time: Tuesday 10
+
+Class 32
+Teacher: Teacher 5 
+Subject: Biology 5 
+Groups: 105 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U3 
+Time: Friday 16
+
+Class 42
+Teacher: Teacher 4 
+Subject: Chemistry Lab8 
+Groups: 108 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U4 
+Time: Tuesday 8
+
+Class 7
+Teacher: Teacher 5 
+Subject: Biology Lab2 
+Groups: 102 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U2 
+Time: Wednesday 16
+
+Class 39
+Teacher: Teacher 8 
+Subject: PhyLab Lab8 
+Groups: 108 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U4 
+Time: Tuesday 10
+
+Class 40
+Teacher: Teacher 1 
+Subject: Maths 4 
+Groups: 104 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U9 
+Time: Friday 16
+
+Class 13
+Teacher: Teacher 2 
+Subject: Maths 7 
+Groups: 107 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U11 
+Time: Friday 16
+
+Class 41
+Teacher: Teacher 3 
+Subject: Chemistry Lab4 
+Groups: 104 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U4 
+Time: Tuesday 11
+
+Class 2
+Teacher: Teacher 2 
+Subject: Maths 8 
+Groups: 108 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U1 
+Time: Wednesday 16
+
+Class 37
+Teacher: Teacher 7 
+Subject: PhyLab Lab3 
+Groups: 103 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U2 
+Time: Wednesday 16
+
+Class 35
+Teacher: Teacher 4 
+Subject: Chemistry 7 
+Groups: 107 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U6 
+Time: Monday 10
+
+Class 50
+Teacher: Teacher 6 
+Subject: PhyLab Lab2 
+Groups: 102 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U2 
+Time: Thursday 12
+
+Class 49
+Teacher: Teacher 8 
+Subject: PhyLab Lab7 
+Groups: 107 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U1 
+Time: Tuesday 15
+
+Class 17
+Teacher: Teacher 5 
+Subject: Biology Lab5 
+Groups: 105 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U4 
+Time: Tuesday 11
+
+Class 24
+Teacher: Teacher 4 
+Subject: Chemistry Lab6 
+Groups: 106 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U1 
+Time: Tuesday 14
+
+Class 45
+Teacher: Teacher 5 
+Subject: Biology 4 
+Groups: 104 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U2 
+Time: Monday 9
+
+Class 27
+Teacher: Teacher 8 
+Subject: Biology 7 
+Groups: 107 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U4 
+Time: Monday 8
+
+Class 53
+Teacher: Teacher 1 
 Subject: Maths 2 
 Groups: 102 
 Type: V 
-Duration: 4 hour(s)
+Duration: 1 hour(s)
+Classroom: U6 
+Time: Monday 9
+
+Class 30
+Teacher: Teacher 7 
+Subject: PhyLab Lab6 
+Groups: 106 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U2 
+Time: Tuesday 15
+
+Class 22
+Teacher: Teacher 3 
+Subject: Maths 13 
+Groups: 102, 103 
+Type: V 
+Duration: 2 hour(s)
 Classroom: U3 
-Time: Monday 17 18 19 20
+Time: Wednesday 14 15
+
+Class 48
+Teacher: Teacher 4 
+Subject: Chemistry Lab7 
+Groups: 107 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U1 
+Time: Tuesday 16
+
+Class 25
+Teacher: Teacher 6 
+Subject: Biology 2 
+Groups: 102 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U1 
+Time: Monday 10
+
+Class 1
+Teacher: Teacher 3 
+Subject: Chemistry Lab2 
+Groups: 102 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U1 
+Time: Thursday 13
+
+Class 28
+Teacher: Teacher 1 
+Subject: Maths 1 
+Groups: 101 
+Type: V 
+Duration: 2 hour(s)
+Classroom: U3 
+Time: Thursday 8 9
+
+Class 18
+Teacher: Teacher 7 
+Subject: Biology 3 
+Groups: 103 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U3 
+Time: Wednesday 12
+
+Class 15
+Teacher: Teacher 3 
+Subject: Chemistry 2 
+Groups: 102 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U1 
+Time: Monday 11
+
+Class 5
+Teacher: Teacher 3 
+Subject: Chemistry Lab3 
+Groups: 103 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U2 
+Time: Thursday 9
+
+Class 47
+Teacher: Teacher 7 
+Subject: Biology 4 
+Groups: 104 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U8 
+Time: Monday 8
+
+Class 19
+Teacher: Teacher 3 
+Subject: Chemistry 3 
+Groups: 103 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U4 
+Time: Thursday 8
+
+Class 20
+Teacher: Teacher 5 
+Subject: Biology 2 
+Groups: 102 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U2 
+Time: Monday 12
+
+Class 9
+Teacher: Teacher 7 
+Subject: Biology 6 
+Groups: 106 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U8 
+Time: Monday 9
+
+Class 4
+Teacher: Teacher 5 
+Subject: Biology Lab3 
+Groups: 103 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U1 
+Time: Thursday 14
+
+Class 8
+Teacher: Teacher 7 
+Subject: PhyLab Lab4 
+Groups: 104 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U1 
+Time: Tuesday 14
+
+Class 31
+Teacher: Teacher 5 
+Subject: Biology Lab4 
+Groups: 104 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U3 
+Time: Tuesday 12
+
+Class 43
+Teacher: Teacher 6 
+Subject: Biology Lab7 
+Groups: 107 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U3 
+Time: Tuesday 13
 
 Class 6
-Teacher: Teacher 3 
+Teacher: Teacher 4 
+Subject: Chemistry 6 
+Groups: 106 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U2 
+Time: Monday 8
+
+Class 33
+Teacher: Teacher 6 
+Subject: Biology 7 
+Groups: 107 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U4 
+Time: Monday 9
+
+Class 51
+Teacher: Teacher 1 
 Subject: Maths 3 
 Groups: 103 
 Type: V 
-Duration: 10 hour(s)
+Duration: 1 hour(s)
 Classroom: U2 
-Time: Tuesday 9 10 11 12 13 14 15 16 17 18
+Time: Thursday 13
+
+Class 21
+Teacher: Teacher 6 
+Subject: Biology Lab6 
+Groups: 106 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U4 
+Time: Tuesday 12
+
+Class 3
+Teacher: Teacher 5 
+Subject: Biology 3 
+Groups: 103 
+Type: V 
+Duration: 1 hour(s)
+Classroom: U4 
+Time: Thursday 12

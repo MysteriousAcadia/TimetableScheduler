@@ -19,6 +19,8 @@ def initial_population(data, matrix, free, filled, groups_empty_space,
         ind = 0
         # ind = random.randrange(len(free) - int(classs.duration))
         while True:
+            if(ind%100==0):
+                print(ind)
             start_field = free[ind]
 
             # check if class won't start one day and end on the next
@@ -347,7 +349,9 @@ def main():
 
     data = load_data('test_files/' + file, teachers_empty_space,
                      groups_empty_space, subjects_order)
+    print(len(data.classrooms))
     matrix, free = set_up(len(data.classrooms))
+    print(free)
     initial_population(data, matrix, free, filled, groups_empty_space,
                        teachers_empty_space, subjects_order)
 
